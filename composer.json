@@ -1,0 +1,29 @@
+{
+    "name": "tomashkhamlai/itemless-invoice",
+    "description": "Try to capture by money not by items",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "../../../../vendor/magento/framework": "103.0.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Itemless\\Invoice\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "latest": "dev",
+            "stable": "master"
+        }
+    },
+    "version": "100.0.0"
+}
